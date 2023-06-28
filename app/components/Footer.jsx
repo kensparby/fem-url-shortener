@@ -37,7 +37,7 @@ export default function Footer() {
 
   return (
     <section className="wrapper bg-n-violet-vdark mt-auto self-stretch">
-      <footer className="bg-n-violet-vdark text-white flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left p-10 lg:p-14 gap-10 lg:justify-between max-w-[1100px] mx-auto">
+      <footer className="bg-n-violet-vdark text-white flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left p-10 lg:p-0 lg:py-14 gap-10 lg:justify-between max-w-[1100px] mx-auto">
         <Logo fill="#ffffff" width="130" />
         <ul className="links flex flex-col md:flex-row gap-10 md:gap-20 capitalize">
           {mapLinks(linkData)}
