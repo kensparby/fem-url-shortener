@@ -22,7 +22,7 @@ export default function Header() {
             <li className="flex text-n-violet-gray font-bold"><a href={null} className="inline-flex pb-1 items-center cursor-pointer hover:text-n-violet-vdark px-2">Pricing</a></li>
             <li className="flex text-n-violet-gray font-bold"><a href={null} className="inline-flex pb-1 items-center cursor-pointer hover:text-n-violet-vdark px-2">Resources</a></li>
             <li className="flex text-n-violet-gray font-bold ml-auto"><a href={null} className="inline-flex pb-1 items-center cursor-pointer hover:text-n-violet-vdark px-2">Login</a></li>
-            <li className="flex text-n-violet-gray font-bold"><a href={null} className="inline-flex pb-1 items-center cursor-pointer px-2 bg-p-cyan rounded-full hover:saturate-50 hover:brightness-150 active:filter-none focus:saturate-50 focus:brightness-150 text-white">Sign Up</a></li>
+            <li className="flex text-n-violet-gray font-bold"><a href={null} className="inline-flex pb-1 items-center cursor-pointer px-6 bg-p-cyan rounded-full hover:saturate-50 hover:brightness-150 active:filter-none focus:saturate-50 focus:brightness-150 text-white">Sign Up</a></li>
           </ul>
         </nav>        
         <i onClick={handleMenuToggle} className="hamburger text-2xl text-n-violet-gray md:hidden">
