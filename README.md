@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Shortly URL shortening API Challenge solution
 
-## Getting Started
+This is my solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### The challenge
 
-## Learn More
+Users should be able to:
 
-To learn more about Next.js, take a look at the following resources:
+- View the optimal layout for the site depending on their device's screen size
+- Shorten any valid URL
+- See a list of their shortened links, even after refreshing the browser
+- Copy the shortened link to their clipboard in a single click
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Screenshot of solution on desktop](./screenshot-desktop.png?raw=true)
+![Screenshot of solution on mobile](./screenshot-mobile.png?raw=true)
 
-## Deploy on Vercel
+### Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Solution URL: [https://github.com/kensparby/fem-url-shortener](https://github.com/kensparby/fem-url-shortener)
+- Live Site URL: [https://fem-url-shortener.vercel.app/](https://fem-url-shortener.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind](https://tailwindcss.com/) - Tailwind
+
+### What I learned
+
+This one took a good while as I wanted to learn and use NextJS for this challenge, and so I spent a few days really testing out and learning before even getting started.
+
+I got a lot of good practice with both the `Pages` and the `App` routers in NextJS, and I also decided on trying Tailwind again; still not impressed with the spaghetti code it turns into and how cumbersome it is to change things once said spaghetti code is a fact. I don't know, I just find writing CSS/SCSS much more enjoyable and far easier to handle.
+
+NextJS is now a permanent part of my toolbox though, and I absolutely love using it. 12/10, would recommend.
+
+### Continued development
+
+I wanted to add animations -- in particular to the hamburger menu -- but eh, maybe some other time. A few quick ready-made icons will do for now.
+
+### Useful resources
+
+- [Youtube: Next.js 13 Crash Course](https://www.youtube.com/watch?v=Y6KDk5iyrYE)
+
+## Author
+
+- Website - [https://sparby.dev/](https://sparby.dev/)
+- Twitter - [@kensparby](https://www.twitter.com/kensparby)
+- Frontend Mentor - [@ksparb](https://www.frontendmentor.io/profile/ksparb)
+
+## Acknowledgments
+
+- [Brad Traversy](https://www.youtube.com/@TraversyMedia), for his great video tutorials and for just being a good guy all around.

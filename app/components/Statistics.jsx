@@ -41,7 +41,7 @@ export default function Statistics() {
         Track how your links are performing across the web with our advanced
         statistics dashboard.
       </p>
-      <div className="relative flex flex-col lg:flex-row max-w-[1100px] px-5 items-center lg:items-start lg:gap-8 px-5">
+      <div className="relative flex flex-col lg:flex-row max-w-[1100px] px-5 items-center lg:items-start lg:gap-8">
         <span className="decorative bg-p-cyan w-2 h-2/3 absolute m-auto top-1/4 lg:top-1/2 lg:left-1/4 lg:h-2 lg:w-1/2"></span>
         {mapData}
       </div>
