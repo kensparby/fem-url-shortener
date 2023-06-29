@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <section className="header-wrapper w-screen flex flex-col items-center bg-white z-20">
       <header className="w-full max-w-[1100px] flex flex-row items-center justify-between p-5 pt-8">
-        <Link href="/">
+        <Link aria-label="Shortly logo" href="/">
           <Logo width="200" />
         </Link>
         <nav className="hidden md:flex items-center h-full w-full">
