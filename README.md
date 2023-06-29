@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kensparby/fem-url-shortener](https://github.com/kensparby/fem-url-shortener)
-- Live Site URL: [https://fem-url-shortener.vercel.app/](https://fem-url-shortener.vercel.app/)
+- Live Site URL: [https://fem-url-shortener.vercel.app/](https://kensparby-fem-url-shortener.vercel.app/)
 
 ## My process
 
