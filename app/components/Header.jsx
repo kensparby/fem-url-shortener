@@ -113,7 +113,10 @@ export default function Header() {
               Resources
             </a>
           </li>
-          <hr className="h-px border-0 bg-p-violet-dark opacity-50 brightness-200" />
+        </ul>
+        <hr className="h-px border-0 bg-p-violet-dark opacity-50 brightness-200 my-2" />
+
+        <ul className="flex flex-col gap-2 items-stretch">
           <li className="flex">
             <a
               href={null}

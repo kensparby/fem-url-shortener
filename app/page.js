@@ -8,12 +8,12 @@ export default function Home() {
       <section className="w-full max-w-[1100px] px-5">
         <Hero />
       </section>
-      <section className="w-full bg-[#f0f1f6]">
+      <div className="w-full bg-[#f0f1f6]">
         <div className="w-full max-w-[1100px] flex flex-col items-center mx-auto -mt-20 px-5 transition-all">
           <ShortenWidget />
           <Statistics />
         </div>
-      </section>
+      </div>
     </div>
   );
 }

@@ -67,7 +67,7 @@ export default function ShortenWidget() {
 
   return (
     <>
-      <section className="SearchWidget w-full p-6 md:p-12 bg-p-violet-dark max-w-[1100px] rounded-lg bg-cover bg-no-repeat bg-center bg-[url('/images/bg-shorten-mobile.svg')] md:bg-[url('/images/bg-shorten-desktop.svg')]">
+      <div className="ShortenWidget w-full p-6 md:p-12 bg-p-violet-dark max-w-[1100px] rounded-lg bg-cover bg-no-repeat bg-center bg-[url('/images/bg-shorten-mobile.svg')] md:bg-[url('/images/bg-shorten-desktop.svg')]">
         <form
           action={handleSubmit}
           className="relative flex flex-col md:flex-row gap-10 md:gap-5"
@@ -100,8 +100,8 @@ export default function ShortenWidget() {
             Shorten It!
           </button>
         </form>
-      </section>
-      <section className="shortcodes w-full z-10">{shortCodeElements}</section>
+      </div>
+      <div className="shortcodes w-full z-10">{shortCodeElements}</div>
     </>
   );
 }
