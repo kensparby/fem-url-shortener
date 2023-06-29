@@ -27,8 +27,8 @@ export default function Header() {
   }, [menuToggleStatus]);
 
   return (
-    <section className="header-wrapper w-screen flex flex-col items-center bg-white z-20">
-      <header className="w-full max-w-[1100px] flex flex-row items-center justify-between p-5 pt-8">
+    <div className="header-wrapper w-screen flex flex-col items-center bg-white z-20">
+      <div className="w-full max-w-[1100px] flex flex-row items-center justify-between p-5 pt-8">
         <Link aria-label="Shortly logo" href="/">
           <Logo width="200" />
         </Link>
@@ -82,7 +82,7 @@ export default function Header() {
         >
           {menuToggleStatus ? <RxCross1 /> : <RxHamburgerMenu />}
         </i>
-      </header>
+      </div>
       <nav
         className={`modal-menu ${
           menuToggleStatus ? "block" : "hidden"
@@ -135,6 +135,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </section>
+    </div>
   );
 }
