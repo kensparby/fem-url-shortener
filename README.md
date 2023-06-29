@@ -31,8 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of solution on desktop](./screenshot-desktop.png?raw=true)
-![Screenshot of solution on mobile](./screenshot-mobile.png?raw=true)
+| Mobile | Desktop |
+:---------:|:---------:
+|![Screenshot of solution on mobile](./screenshot-mobile.png?raw=true) | ![Screenshot of solution on desktop](./screenshot-desktop.png?raw=true) |
 
 ### Links
 
@@ -50,11 +51,16 @@ Users should be able to:
 
 ### What I learned
 
-This one took a good while as I wanted to learn and use NextJS for this challenge, and so I spent a few days really testing out and learning before even getting started.
+This one took a good while as I wanted to learn and use NextJS for this challenge, and so I spent a few days really testing out and learning before even getting started, and then another three days building the challenge.
 
 I got a lot of good practice with both the `Pages` and the `App` routers in NextJS, and I also decided on trying Tailwind again; still not impressed with the spaghetti code it turns into and how cumbersome it is to change things once said spaghetti code is a fact. I don't know, I just find writing CSS/SCSS much more enjoyable and far easier to handle.
 
 NextJS is now a permanent part of my toolbox though, and I absolutely love using it. 12/10, would recommend.
+
+I opted for not adhering to the challenge requirement of the created links to persist past browser refresh, as that just seems like poor UX...?
+They're instead stored in state and will persist *until* the browser is refreshed.
+
+On a fun sidenote, I wasted over an hour on debugging a `setTimeout()` that just would not run. I figured this had to be some quirk of NextJS until I tried it in another browser and it immediately worked as expected. Caching issues are always fun :)
 
 ### Continued development
 

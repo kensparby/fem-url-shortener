@@ -1,4 +1,3 @@
-// "use client";
 import Logo from "./Logo";
 import Socials from "./Socials";
 
@@ -31,9 +30,7 @@ export default function Footer() {
     });
 
     return linkGroup;
-
   };
-
 
   return (
     <section className="wrapper bg-n-violet-vdark mt-auto self-stretch">

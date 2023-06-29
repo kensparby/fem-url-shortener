@@ -13,7 +13,10 @@ export default function Stat({ header, body }) {
           className="bg-p-violet-dark p-6"
         />
       </div>
-      <h3 dangerouslySetInnerHTML={header} className="text-xl font-bold text-n-violet-vdark"></h3>
+      <h3
+        dangerouslySetInnerHTML={header}
+        className="text-xl font-bold text-n-violet-vdark"
+      ></h3>
       <p dangerouslySetInnerHTML={body} className="hyphens-manual"></p>
     </div>
   );

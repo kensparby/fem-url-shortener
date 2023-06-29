@@ -33,7 +33,7 @@ export default function Statistics() {
   });
 
   return (
-    <section className="Statistics flex flex-col gap-6 py-20 items-center text-center bg-[#f0f1f6] w-full m-auto pt-40 -mt-20 md:-mt-16">
+    <section className="Statistics flex flex-col gap-6 py-20 items-center text-center w-full pt-40 -mt-20 md:-mt-16">
       <h2 className="text-2xl lg:text-4xl font-bold text-n-violet-vdark">
         Advanced Statistics
       </h2>
@@ -41,7 +41,7 @@ export default function Statistics() {
         Track how your links are performing across the web with our advanced
         statistics dashboard.
       </p>
-      <div className="relative flex flex-col lg:flex-row max-w-[1100px] px-5 items-center lg:items-start lg:gap-8">
+      <div className="relative flex flex-col lg:flex-row max-w-[1100px] items-center lg:items-start lg:gap-8">
         <span className="decorative bg-p-cyan w-2 h-2/3 absolute m-auto top-1/4 lg:top-1/2 lg:left-1/4 lg:h-2 lg:w-1/2"></span>
         {mapData}
       </div>
