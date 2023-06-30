@@ -32,20 +32,6 @@ export default function ShortenWidget() {
     }
   };
 
-  // useEffect(() => {
-  //     let timeout;
-
-  //     if (buttonText !== "Copy") {
-  //       timeout = setTimeout(() => {
-  //         setButtonText("Copy");
-  //       }, 1000);
-  //     }
-
-  //     return () => {
-  //       clearTimeout(timeout);
-  //     };
-  //   }, [buttonText]);
-
   useEffect(() => {
     let timer;
     if (buttonState) {
@@ -76,6 +62,7 @@ export default function ShortenWidget() {
             onChange={handleInputChange}
             name="urlInput"
             type="text"
+            title="Paste URL here and get a shortened link"
             value={urlInput}
             placeholder="Shorten a link here..."
             className={`peer h-10 md:h-12 rounded-lg px-3 lg:px-7 py-4 w-full ${
